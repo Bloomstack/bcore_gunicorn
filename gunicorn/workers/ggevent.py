@@ -35,7 +35,7 @@ class GeventWorker(AsyncWorker):
     wsgi_handler = None
 
     def patch(self):
-        monkey.patch_all()
+        monkey.patch_all(thread=False, socket=False)
 
         # patch sockets
         sockets = []
