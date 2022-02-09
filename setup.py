@@ -85,10 +85,10 @@ extras_require = {
 }
 
 setup(
-    name='gunicorn',
+    name='bcore_gunicorn',
     version=__version__,
 
-    description='WSGI HTTP Server for UNIX',
+    description='Fork of gunicorn, WSGI HTTP Server for UNIX',
     long_description=long_description,
     author='Benoit Chesneau',
     author_email='benoitc@e-engura.com',
